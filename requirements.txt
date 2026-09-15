@@ -1,0 +1,8 @@
+# Pinned to the versions that produced the committed results (see README.md).
+# Create the environment:  uv venv --python 3.12 .venv && uv pip install --python .venv -r requirements.txt
+numpy==1.26.4
+scipy==1.17.1
+pandas==2.3.3
+matplotlib==3.10.9
+statsmodels==0.14.6  # tests only, as an independent reference
+pytest==9.1.1

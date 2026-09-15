@@ -1,0 +1,32 @@
+{
+  "n_trials": 50000,
+  "look_counts": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    14,
+    20,
+    28
+  ],
+  "K1_vs_study1": {
+    "study2_K1": 0.05098,
+    "study1": 0.05025,
+    "gap": 0.0007299999999999945,
+    "tolerance": 0.0024040550467907345
+  },
+  "max_abs_z_vs_gaussian_theory": 1.0558758341275776,
+  "max_abs_z_pocock_vs_alpha": 1.0566692159561282,
+  "gates": {
+    "K1_reproduces_study1_fpr": true,
+    "uncorrected_fpr_increasing_in_K": true,
+    "bonferroni_fpr_at_most_alpha": true,
+    "bonferroni_fpr_decreasing_in_K": true,
+    "bonferroni_power_cost_paired_ci_below_zero": true,
+    "pocock_fpr_within_3.5se_of_alpha_every_K": true,
+    "null_curves_within_3.5se_of_gaussian_theory": true
+  },
+  "G2_pass": true
+}

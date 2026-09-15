@@ -1,0 +1,37 @@
+{
+  "n_trials_per_cell": 20000,
+  "sim_vs_exact": {
+    "cells": 56,
+    "min_binomial_p": 0.015635436469473404,
+    "bonferroni_threshold": 0.00017857142857142857,
+    "well_conditioned_cells": 48,
+    "chi2": 41.92898089045531,
+    "chi2_p": 0.7187078546521161,
+    "max_abs_z_well_conditioned": 2.431896904372237
+  },
+  "sim_vs_closed_form_n_ge_1000": {
+    "cells": 49,
+    "min_binomial_p": 0.023454749963643783,
+    "bonferroni_threshold": 0.00020408163265306123,
+    "well_conditioned_cells": 41,
+    "chi2": 39.467915164111126,
+    "chi2_p": 0.5387991762019696,
+    "max_abs_z_well_conditioned": 2.2760947108356775
+  },
+  "max_abs_sim_minus_closed_form_n_ge_1000": 0.005269674618539999,
+  "max_abs_closed_form_minus_exact": {
+    "value": -0.0012000808331713575,
+    "relative_lift": 0.3,
+    "n_per_arm": 2000
+  },
+  "zero_lift_min_binomial_p_n_ge_1000": 0.1313484185776427,
+  "gates": {
+    "sim_vs_exact_no_cell_below_bonferroni": true,
+    "sim_vs_exact_chi2_p_above_0.01": true,
+    "sim_vs_closed_form_n_ge_1000_no_cell_below_bonferroni": true,
+    "sim_vs_closed_form_n_ge_1000_chi2_p_above_0.01": true,
+    "round_trip_power_within_0.01_at_all_mdes": true,
+    "zero_lift_column_is_alpha_n_ge_1000": true
+  },
+  "G3_pass": true
+}

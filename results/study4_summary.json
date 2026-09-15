@@ -1,0 +1,42 @@
+{
+  "n_trials": 50000,
+  "lifts": [
+    0.0,
+    0.04,
+    0.05,
+    0.06,
+    0.08,
+    0.1,
+    0.12,
+    0.14
+  ],
+  "look_counts": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    10,
+    14,
+    20,
+    28
+  ],
+  "fixed_horizon_power_exact": {
+    "0.0": 0.0500085916943601,
+    "0.04": 0.20618738938603887,
+    "0.05": 0.2942776946814656,
+    "0.06": 0.39679212754213566,
+    "0.08": 0.615858788258952,
+    "0.1": 0.8014217523754263,
+    "0.12": 0.9184128688620966,
+    "0.14": 0.9736882610461817
+  },
+  "K1_max_abs_z_vs_exact": 1.7387528983237543,
+  "gates": {
+    "K1_winners_mean_matches_exact_every_lift_abs_z_le_3.5": true,
+    "K1_selection_bias_positive_at_lowest_power": true,
+    "K1_selection_bias_small_at_highest_power_lt_5pct": true,
+    "winners_bias_decreasing_in_true_effect_every_K": true
+  },
+  "G4_pass": true
+}

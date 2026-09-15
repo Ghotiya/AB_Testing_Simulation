@@ -1,0 +1,12 @@
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local run artifacts
+logs/
+
+# Private working notes (planning docs, run log, handoffs); the public summary is README.md
+docs/
+RUNBOOK.md
